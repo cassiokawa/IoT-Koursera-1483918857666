@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-Koursera
+  host: IoT-Koursera
+  disk_quota: 1024M
+  services:
+  - IoT-Koursera-cloudantNoSQLDB
+  - IoT-Koursera-iotf-service
+  - availability-monitoring-auto
